@@ -31,4 +31,39 @@ let isLoggedStringOf =""
 
  let mark = 33;
  let convertString = String(33);
- console.log(typeof convertString)
+ //console.log(typeof convertString)
+
+ //***************************************Operatrion************************************//
+ // OPERATORS   => Plus+, Minus-, Multiply*, Power**, Remenders%, Divide/
+let value = 3;
+let negValue = -value
+//console.log(negValue)
+
+//console.table([2*2,2+2,2-2,2**3,4/2,9%2])
+let str1 ="Hello";
+let str2=" Prince";
+
+let str3 = str1 + str2
+//console.log(str3)
+
+let str ="1";
+let num = 1;
+
+let strNum3 = str + num
+
+let gameScore=100;
+gameScore++
+console.log(gameScore)
+//Link to study=> https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-postfix-increment-operator
+
+let x = 5;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
